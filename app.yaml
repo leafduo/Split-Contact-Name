@@ -1,0 +1,14 @@
+application: split-contact-name
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /googlefe9f34290d4c70c9.html
+  static_files: static/googlefe9f34290d4c70c9.html
+  upload: static/googlefe9f34290d4c70c9.html
+  
+- url: .*
+  script: main.py
+
+
